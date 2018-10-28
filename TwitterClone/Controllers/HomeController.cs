@@ -47,6 +47,7 @@ namespace TwitterClone.Controllers
             }
         }
 
+        //Get All Tweets
         [HttpGet]
         public JsonResult AllTweets()
         {
